@@ -1,3 +1,20 @@
+@mixin range-track() {
+    width: 100%;
+    height: 8.4px;
+    cursor: pointer;
+    animation: 0.2s;
+}
+
 @mixin range-thumb() {
- 
+    @include box-shadow;
+    border: 1px solid $black;
+    height: 36px;
+    width: 16px;
+    border-radius: 3px;
+    background: #ffffff;
+    cursor: pointer;
+}
+
+@mixin box-shadow {
+    box-shadow: 1px 1px 1px $black, 0px 0px 1px $hexod;
 }
