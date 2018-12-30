@@ -1,0 +1,6 @@
+@mixin color($bg) {
+    background: $bg;
+    @if lightness($bg) < 70% {
+        color: white;
+    }
+}
