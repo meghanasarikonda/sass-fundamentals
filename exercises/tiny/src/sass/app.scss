@@ -1,0 +1,7 @@
+@for $i from 1 through 5 {
+    $size: $i * 5;
+    .m-t-#{$size} {
+        margin-top: #{$size}px;
+    }
+
+}
